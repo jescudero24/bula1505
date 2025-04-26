@@ -1,0 +1,99 @@
+/* —— Estilo general —— */
+ 
+  body {
+    margin: 0;
+    background: #f0f0f0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #zoom-controls {
+    margin: 1rem;
+  }
+  #container {
+    overflow: auto; /* importante */
+    width: 100%;
+    height: 100vh; /* o la altura que quieras que ocupe */
+  }
+  #img-wrapper {
+    position: relative;
+    display: inline-block;
+    transform-origin: top left;
+    transition: transform 0.2s ease;
+  }
+  #bula-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .renglon {
+  position: absolute;
+  opacity: 0.2;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.4)); /* degradado SUAVE */
+  color: black;
+  font-size: 0.8rem;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  width: 100%;
+  max-width: 76%;
+  height: auto;
+}
+.renglon::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+  .numero {
+    position: absolute;
+    transform: translateX(-120%);
+    background: #cccccc;
+    color: #333;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 50%;
+    opacity: 0.7;
+    pointer-events: auto;
+    cursor: pointer;
+    user-select: none;
+  }
+  .r0 { background: transparent; }
+  .r1 { background: transparent; }
+  .r2 { background: transparent; }
+  .r3 { background: transparent; }
+  .r4 { background: transparent; }
+  .r5 { background: transparent; }
+  .r6 { background: transparent; }
+  .r7 { background: transparent; }
+  .r8 { background: transparent;}
+  .r9 { background: transparent; }
+
+
+  /* -------- ZOOM ---------*/
+  #zoom-controls {
+    position: fixed; /* flotante */
+    bottom: 1rem;    /* separación del borde inferior */
+    right: 1rem;     /* separación del borde derecho */
+    display: flex;
+    flex-direction: column; /* uno debajo del otro */
+    gap: 0.5rem;     /* separación entre los botones */
+    z-index: 1000;   /* encima de todo */
+  }
+  
+  .zoom-button {
+    width: 50px;     /* cuadrado */
+    height: 50px;
+    cursor: pointer;
+    object-fit: cover; /* para que no se deformen */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    background: white;
+    padding: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .zoom-button:hover {
+    transform: scale(1.1); /* un pequeño efecto al pasar el ratón */
+  }
