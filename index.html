@@ -276,9 +276,42 @@ function todosReset() {
   }
 }
 
+function ocultarNumeros(){
+    // Ocultar todos los números
+    const numeros = document.querySelectorAll('.numero');
+  numeros.forEach(numero => {
+    numero.style.visibility = 'hidden';
+  });
+}
+
+function mostrarNumeros(){
+  const numeros = document.querySelectorAll('.numero');
+  numeros.forEach(numero => {
+    numero.style.visibility = 'visible';
+  });
+}
+
+function mostrarOcultarNum() {
+  const numeros = document.querySelectorAll('.numero');
+  if (numeros.length === 0) return;
+
+  // Miramos el primer número para decidir
+  const visible = numeros[0].style.visibility !== 'hidden';
+
+  if (visible) {
+    ocultarNumeros();
+  } else {
+    mostrarNumeros();
+  }
+}
+
+
+ocultarNumeros();
+
 function resetPage() {
   resetZoom();
   todosReset();
+  ocultarNumeros();
 }
 
 </script>
@@ -286,9 +319,16 @@ function resetPage() {
 <div id="zoom-controls">
   <img src="images/zoom-in.png" alt="Acercar" onclick="zoomIn()" class="zoom-button">
   <img src="images/zoom-out.png" alt="Alejar" onclick="zoomOut()" class="zoom-button">
-  <img src="images/flag-spain-BW.png" alt="spanish" onclick="todosES()" class="zoom-button">
-  <img src="images/flag-vatican-BW.png" alt="latin" onclick="todosLatin()" class="zoom-button">
   <img src="images/reset.png" alt="Reset" onclick="resetPage()" class="zoom-button"> 
+</div>
+
+<div id="bula-controls">
+  <img src="images/num-list.png" alt="numerado" onclick="mostrarOcultarNum()" class="bula-button">
+  <img src="images/speaker.png" alt="Escucha la Bula" onclick="mostrarOcultarNum()" class="bula-button">
+  <img src="images/flag-spain-BW.png" alt="spanish" onclick="todosES()" class="bula-button">
+  <img src="images/flag-vatican-BW.png" alt="latin" onclick="todosLatin()" class="bula-button">
+  <img src="images/info.png" alt="info" onclick="alert('nada todavía')" class="bula-button">
+  <img src="images/reset.png" alt="Reset" onclick="resetPage()" class="bula-button"> 
 </div>
 
 <script src="js/dragToPan.js" type="text/javascript"></script>

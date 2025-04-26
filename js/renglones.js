@@ -427,7 +427,7 @@ const contenidosLATIN = {
       "0.2% 0% 0.1% 0.1%"
       ],
       24: [
-      "0.57rem",
+      "0.54rem",
       "85%",
       " público y con testigos, estén vacantes, incluso si durante tanto tiempo hubieran quedado vacantes, porque la colación de estos o estas, desarrollada legítimamente en la dicha sede, según los estatutos del Concilio de Letrán, y los prestimonios, porciones prestimoniales y beneficios de este tipo a disposición apostólica especialmente, u otras también que consten generalmente reservadas según lo que el mencionado ",
       "0.2% 0% 0.1% 0.1%"
@@ -452,7 +452,7 @@ const contenidosLATIN = {
       ],
       28: [
       "0.62rem",
-      "76%",
+      "84%",
       " capellanes, servidores y demás personal de este tipo, sin que para nada se requiera licencia de ningún lugar de la diócesis ni de ningún otro sobre esto, proclamamos y designamos al mencionado Rodrigo, mientras viva y después del óbito del propio Rodrigo, a la persona o personas por él nombrada o nombradas, administrador y patrono del Colegio y ",
       "0.2% 0% 0.1% 0.1%"
       ],
@@ -463,8 +463,8 @@ const contenidosLATIN = {
       "0.2% 0% 0.1% 0.1%"
       ],
       30: [
-      "0.62rem",
-      "76%",
+      "0.56rem",
+      "85%",
       " después que hayan sido redactados, deberán sancionarse como confirmados por la autoridad apostólica en el mismo acto. Además, al Colegio, a su rector, escolares, maestros, doctores, capellanes, servidores y otras personas que concurran en el mismo Colegio, asistan a clase y la impartan, los eximimos totalmente de la jurisdicción, dominio, potestad del arzobispo de Sevilla existente en ese tiempo, ",
       "0.2% 0% 0.1% 0.1%"
       ],
@@ -488,7 +488,7 @@ const contenidosLATIN = {
       ],
       34: [
       "0.62rem",
-      "76%",
+      "82%",
       " residen en ellos, los posean y disfruten, así establecemos y ordenamos que en el mismo Colegio los estudiantes y los asistentes solo a clase puedan tomar libre y legítimamente los grados de Bachillerato, Licenciatura, Doctorado y Magisterio en Artes, Lógica, Filosofía y Teología, Derecho Canónico y Civil, respectivamente a modelo de los demás ",
       "0.2% 0% 0.1% 0.1%"
       ],
@@ -499,26 +499,26 @@ const contenidosLATIN = {
       "0.2% 0% 0.1% 0.1%"
       ],
       36: [
-      "0.62rem",
-      "76%",
+      "0.6rem",
+      "85%",
       " nuestro predecesor, publicada contra los exentos que comienza «Queriendo», y la de Bonifacio VIII, pontífices romanos predecesores nuestros, y las constituciones y ordenanzas apostólicas y los estatutos y costumbres de las Iglesias de Sevilla y Badajoz, en las cuales se dice entre otras cosas que se previene de que nadie pueda obtener prestimonios, porciones prestimoniales ",
       "0.2% 0% 0.1% 0.1%"
       ],
       37: [
       "0.62rem",
-      "76%",
+      "82%",
       " o beneficios simples de este tipo si no consta como canónigo hispalense prebendado de las mismas iglesias o beneficiado perpetuo de alguna otra manera en ellas. Estando estas corroboradas incluso si por juramento, confirmación apostólica o por cualquier otra confirmación lo hubieren sido, y si por esta vez solamente aquellas de otra manera en su vigor ",
       "0.2% 0% 0.1% 0.1%"
       ],
       38: [
-      "0.62rem",
-      "76%",
+      "0.56rem",
+      "85%",
       " hubiesen de mantenerse, especial y expresamente lo derogamos, cualquiera que fuesen los aspectos contrarios. O si algunos, además de las provisiones que debiera hacer acerca de los prestimonios, porciones prestimoniales o beneficios simples de este tipo, consiguiesen bulas especiales, o generales acerca de otros beneficios eclesiásticos en aquellas regiones de dicha sede o de los delegados de esta, ",
       "0.2% 0% 0.1% 0.1%"
       ],
       39: [
-      "0.62rem",
-      "76%",
+      "0.6rem",
+      "82%",
       " incluso si por medio de estas para la inhibición, reforma y decreto o de cualquier otro modo que se haya procesado, las cuales bulas ciertamente y los procedimientos habidos por medio de las mismas y los que de allí se sigan cualesquiera que fuesen acerca de los prestimonios, porciones prestimoniales o beneficios simples de este tipo, queremos que no se extiendan ",
       "0.2% 0% 0.1% 0.1%"
       ],
