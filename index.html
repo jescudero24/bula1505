@@ -314,6 +314,17 @@ function resetPage() {
   ocultarNumeros();
 }
 
+let audioPlayer = null;
+
+function playMp3(src) {
+  if (audioPlayer) {
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
+  }
+  audioPlayer = new Audio(src);
+  audioPlayer.play();
+}
+
 </script>
 
 <div id="zoom-controls">
@@ -324,7 +335,7 @@ function resetPage() {
 
 <div id="bula-controls">
   <img src="images/num-list.png" alt="numerado" onclick="mostrarOcultarNum()" class="bula-button">
-  <img src="images/speaker.png" alt="Escucha la Bula" onclick="mostrarOcultarNum()" class="bula-button">
+  <img src="images/speaker.png" alt="Escucha la Bula" onclick="playMp3('./files/bula1505es.mp3')" class="bula-button">
   <img src="images/flag-spain-BW.png" alt="spanish" onclick="todosES()" class="bula-button">
   <img src="images/flag-vatican-BW.png" alt="latin" onclick="todosLatin()" class="bula-button">
   <img src="images/info.png" alt="info" onclick="alert('nada todavía')" class="bula-button">
